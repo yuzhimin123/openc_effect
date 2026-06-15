@@ -1,0 +1,32 @@
+{
+  "name": "effect-demo",
+  "version": "1.0.0",
+  "description": "Effect TS 源码学习与调试 Demo 工程 - 贴近 opencode 真实使用场景",
+  "type": "module",
+  "module": "index.ts",
+  "private": true,
+  "scripts": {
+    "ex:01": "bun run examples/01-services-and-layers/index.ts",
+    "ex:02": "bun run examples/02-schema-and-errors/index.ts",
+    "ex:03": "bun run examples/03-error-handling-retry/index.ts",
+    "ex:04": "bun run examples/04-resource-management/index.ts",
+    "ex:05": "bun run examples/05-concurrency/index.ts",
+    "ex:06": "bun run examples/06-streaming-pubsub/index.ts",
+    "ex:07": "bun run examples/07-http-server/index.ts",
+    "ex:08": "bun run examples/08-http-client/index.ts",
+    "ex:09": "bun run examples/09-config-and-logging/index.ts",
+    "ex:10": "bun run examples/10-integration/index.ts",
+    "test:all": "bun run examples/01-services-and-layers/index.ts && bun run examples/02-schema-and-errors/index.ts && bun run examples/03-error-handling-retry/index.ts && bun run examples/04-resource-management/index.ts && bun run examples/05-concurrency/index.ts && bun run examples/06-streaming-pubsub/index.ts && bun run examples/07-http-server/index.ts && bun run examples/08-http-client/index.ts && bun run examples/09-config-and-logging/index.ts && bun run examples/10-integration/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "effect": "^3.12",
+    "@effect/platform": "^0.74",
+    "@effect/platform-bun": "^0.55"
+  }
+}

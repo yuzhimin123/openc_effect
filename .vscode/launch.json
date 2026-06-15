@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Current Example (Bun)",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": ["run", "--inspect-brk"],
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "smartStep": true,
+      "skipFiles": ["<node_internals>/**"],
+      "sourceMaps": true
+    },
+    {
+      "type": "bun",
+      "request": "launch",
+      "name": "Debug Current Example (Bun Extension)",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "smartStep": true,
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
