@@ -16,7 +16,9 @@
     "ex:08": "bun run examples/08-http-client/index.ts",
     "ex:09": "bun run examples/09-config-and-logging/index.ts",
     "ex:10": "bun run examples/10-integration/index.ts",
-    "test:all": "bun run examples/01-services-and-layers/index.ts && bun run examples/02-schema-and-errors/index.ts && bun run examples/03-error-handling-retry/index.ts && bun run examples/04-resource-management/index.ts && bun run examples/05-concurrency/index.ts && bun run examples/06-streaming-pubsub/index.ts && bun run examples/07-http-server/index.ts && bun run examples/08-http-client/index.ts && bun run examples/09-config-and-logging/index.ts && bun run examples/10-integration/index.ts"
+    "ex:11": "bun run examples/11-http-server/index.ts",
+    "ex:12": "bun run examples/12-instance-state/index.ts",
+    "test:all": "bun run examples/01-services-and-layers/index.ts && bun run examples/02-schema-and-errors/index.ts && bun run examples/03-error-handling-retry/index.ts && bun run examples/04-resource-management/index.ts && bun run examples/05-concurrency/index.ts && bun run examples/06-streaming-pubsub/index.ts && bun run examples/07-http-server/index.ts && bun run examples/08-http-client/index.ts && bun run examples/09-config-and-logging/index.ts && bun run examples/10-integration/index.ts && bun run examples/11-http-server/index.ts && bun run examples/12-instance-state/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
